@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Module1</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+function calculateGrade(marks){
+    switch(true){
+        case (marks>=90 && marks<=100):
+            return "A"
+            break;
+        case (marks>=80 && marks<90):
+            return "B"
+            break;
+        case (marks>=70 && marks<80):
+            return "C"
+            break;    
+        case (marks>=60 && marks<70):
+            return "D"
+            break;  
+        case (marks<60):
+            return "F"
+            break;  
+
+        default:
+            return "Enter marks between 0-100";
+            break;
+
+    }
+}
+console.log(calculateGrade(90))
+    </script>
+
+</body>
+</html>

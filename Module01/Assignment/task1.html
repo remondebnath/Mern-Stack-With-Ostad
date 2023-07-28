@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Module1</title>
+</head>
+<body>
+  <script>
+    
+    document.write("<h2>Hello, Dear Customer!</h2>");
+     function doPurchase(purchase){
+      if(purchase<50){
+        return "Sorry,You have to purchase at least $50";
+      }
+      else if(purchase>=50 && purchase<=100){
+        let discount=purchase*(5/100);
+        let discountPrice=purchase-discount
+        return "Congratulations,You get 5% discount."
+        +`Your Purchase amount is $${purchase}.`
+        +`Your discount price $${discount}.`+`You have to pay $${discountPrice}`
+      }
+      else if(purchase>=100 && purchase<=200){
+        let discount=purchase*(10/100);
+        let discountPrice=purchase-discount
+        return "Congratulations,You get 10% discount."
+        +`Your Purchase amount is $${purchase}.`
+        +`Your discount price $${discount}.`+`You have to pay $${discountPrice}`
+      }
+      
+      else if(purchase>=200){
+        let discount=purchase*(15/100);
+        let discountPrice=purchase-discount
+        return "Congratulations,You get 15% discount."
+        +`Your Purchase amount is $${purchase}.`
+        +`Your discount price $${discount}.`+`You have to pay $${discountPrice}`
+      }
+    }
+
+     console.log(doPurchase(300))
+   document.write(doPurchase(300))
+
+  </script>
+</body>
+</html>
