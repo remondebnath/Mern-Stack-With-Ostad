@@ -62,3 +62,15 @@ function findSmallNum(arr){
 
 // qus8 Create a function that takes a number as an argument and returns negative of that number. Return negative numbers without any change.
 
+function findSmallestNum(arr) {
+    var smallest = arr[0];
+    
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i] < smallest) {
+        smallest = arr[i];
+      }
+    }
+    
+    return smallest;
+  }
+  console.log

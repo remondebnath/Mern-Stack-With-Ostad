@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>QuerySelector</title>
+    </head>
+    <body>
+        <img  src="image.jpg" alt="Initial Image"><br/>
+        <button onclick="changeImgOne()">Button 1</button>
+        <button onclick="changeImgTwo()">Button 2</button>
+
+        <script>
+             function changeImgOne() {
+            document.querySelector('img').src = 'image1.jpg';
+            document.querySelector('img').alt = 'Image one';
+        }
+        function changeImgTwo() {
+            document.querySelector('img').src = 'image2.jpg';
+            document.querySelector('img').alt = 'Image two';
+        }
+
+        </script>
+    </body>
+</html>
