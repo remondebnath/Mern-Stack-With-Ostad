@@ -1,12 +1,12 @@
 exports.create = async (req, res) => { 
-    res.status(200).json({status:“success”, data: “blog create”})
+    res.status(200).json({status:'succcess', data: 'Can contain any information'})
 };
 exports.read = async (req, res) => { 
-    res.status(200).json({status:“success”, data: “blog read”})
+    res.status(200).json({status:'succcess', data: 'Can contain any information'})
 };
 exports.delete = async (req, res) => { 
-    res.status(200).json({status:“success”, data: “delete”})
+    res.status(200).json({status:'succcess', data: 'Can contain any information'})
 };
 exports.update = async (req, res) => { 
-    res.status(200).json({status:“success”, data: “update”})
+    res.status(200).json({status:'succcess', data: 'Can contain any information'})
 };

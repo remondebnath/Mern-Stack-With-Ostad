@@ -1,6 +1,5 @@
-const express= require('exoress');
-const { Router } = require('express');
-cost route= express.Router();
+const express= require('express');
+const router = express.Router();
 
 
 const blogController = require('../Controllers/blogController');
