@@ -4,9 +4,10 @@ const Project=()=>{
     return(
         <div>
              <h2>
-        Hello World
+        Project
       </h2>
       <p>This is Paragraph</p>
         </div>
     )
 }
+export default Project;

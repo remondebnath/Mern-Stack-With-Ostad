@@ -4,9 +4,11 @@ const Footer=()=>{
     return(
         <div>
              <h2>
-        Hello World
+       Footer
       </h2>
       <p>This is Paragraph</p>
         </div>
     )
 }
+
+export default Footer;

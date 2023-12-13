@@ -4,9 +4,10 @@ const Service=()=>{
     return(
         <div>
              <h2>
-        Hello World
+        Service
       </h2>
       <p>This is Paragraph</p>
         </div>
     )
 }
+export default Service;

@@ -4,9 +4,10 @@ const Hero=()=>{
     return(
         <div>
              <h2>
-        Hello World
+        Hero
       </h2>
       <p>This is Paragraph</p>
         </div>
     )
 }
+export default Hero;
