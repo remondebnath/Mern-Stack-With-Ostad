@@ -1,4 +1,6 @@
 import React from "react";
+
+
 const About=()=>{
 
     return(
@@ -7,6 +9,7 @@ const About=()=>{
         About
       </h2>
       <p>This is Paragraph</p>
+
         </div>
     )
 }
